@@ -2,7 +2,7 @@ const http = require('http')
 const os = require('os')
 
 const PORT = process.env.PORT || 3000
-const VERSION = '7.0.0'
+const VERSION = '8.0.0'
 
 http.createServer((req, res) => {
   const body = []
